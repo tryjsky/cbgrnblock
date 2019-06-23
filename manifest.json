@@ -1,0 +1,12 @@
+{
+  "name": "cbgrn Auto-complete Block",
+  "version": "0.1",
+  "description": "Stop auto-complete feature of cbgrn.",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
